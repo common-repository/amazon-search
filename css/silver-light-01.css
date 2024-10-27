@@ -1,0 +1,26 @@
+/* WP Amazon Search
+	by Andy Maloney
+
+	This is the CSS for the classic theme
+*/
+
+/* The search widget */
+
+.amz-search-widget .server { text-align: left; }
+
+.amz-search-widget .server-select { font-size: 10px; }
+
+
+/* The search results */
+
+.amz-search { float: left; width: 610px; margin: 0; padding: 0; }
+
+.amz-search .server { text-align: left; }
+
+.amz-search .server-select
+{
+	font-size: 10px;
+	margin-right: 15px;
+}
+
+.amz-search .category-select { font-size: 10px; }

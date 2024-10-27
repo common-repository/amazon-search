@@ -1,0 +1,93 @@
+/* WP Amazon Search
+	by Andy Maloney
+
+	This is the CSS for the default theme
+*/
+
+/* The search widget */
+
+.amz-search-widget .server { text-align: left; font-size: 12px; }
+
+.amz-search-widget .server-select { font-size: 10px; width: 60px; vertical-align: middle; }
+
+.amz-search-widget input.keyword-input
+{
+	font-size: 10px;
+	margin-right: 5px;
+}
+
+.amz-search-widget input.go
+{
+	border: 0;
+	vertical-align: middle;
+	width: 21px;
+	height: 21px;
+}
+
+/* The search results */
+
+.amz-search { margin-top: 15px; }
+
+.amz-search .server { text-align: left; }
+
+.amz-search .server-select
+{
+	font-size: 10px;
+	margin-right: 15px;
+	width: 60px;
+}
+
+.amz-search .category-select { font-size: 10px; width: 70px; }
+
+.amz-search input.keyword-input
+{
+	font-size: 10px;
+	margin-right: 15px;
+}
+
+.amz-search input.go
+{
+	border: 0;
+	vertical-align: middle;
+	width: 21px;
+	height: 21px;
+}
+
+.amz-search table.item
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+}
+
+.amz-search table td.separator {
+	border-bottom: #C0C0C0 dotted 1px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.amz-search table.item img { padding-right: 10px; }
+
+.amz-search table .item-info {
+	vertical-align: top;
+	font-size: 10px;
+}
+
+.amz-search .paging {
+	border-bottom: #C0C0C0 dotted 1px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: right;
+}
+
+.amz-search .num-results {
+	border-bottom: #C0C0C0 dotted 1px;
+	padding-bottom: 12px;
+}
+
+.amz-search .num-results img { margin-right: 10px; }
+
+.amz-search .lowest-price-price {
+	font-size: 11px;
+	color: red;
+}
